@@ -1,0 +1,20 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Node / Next.js (future dashboard)
+node_modules/
+.next/
+out/
+dist/
+
+# n8n exports with credentials
+*credentials*.json
+
+# Logs
+*.log
